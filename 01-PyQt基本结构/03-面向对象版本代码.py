@@ -8,14 +8,14 @@ class Window(QWidget):
 
     def __init__(self):
         super().__init__()  # 进行父类的初始化
-        self.setWindowTitle("面向对象版本的PyQt代码")
-        self.resize(500, 500)
-        self.move(400, 250)
+        self.setWindowTitle("小试牛刀一哈")
+        self.resize(500, 600)
+        self.move(1500, 250) # 窗口相对于屏幕左上角的位移
 
     def setup_ui(self):
         label = QLabel(self)
-        label.setText("Hello world")
-        label.move(200, 240)
+        label.setText("我可没有刮胡子的闲工夫")
+        label.move(100, 240)
 
 
 if __name__ == "__main__":
